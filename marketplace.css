@@ -13,13 +13,13 @@ body {
 
 * {box-sizing: border-box;}
 
-/* Style the navbar */
+
 .topnav {
   overflow: hidden;
   background-color: #e9e9e9;
 }
 
-/* Navbar links */
+
 .topnav a {
   float: left;
   display: block;
@@ -30,33 +30,33 @@ body {
   font-size: 17px;
 }
 
-/* Navbar links on mouse-over */
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Active/current link */
+
 .topnav a.active {
   background-color: #2196F3;
   color: white;
 }
 
-/* Style the input container */
+
 .topnav .login-container {
   float: right;
 }
 
-/* Style the input field inside the navbar */
+
 .topnav input[type=text] {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
   border: none;
-  width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+  width: 150px; 
 }
 
-/* Style the button inside the input container */
+
 .topnav .login-container button {
   float: right;
   padding: 6px;
@@ -72,7 +72,6 @@ body {
   background: #ccc;
 }
 
-/* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topnav .login-container {
     float: none;
